@@ -295,12 +295,18 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#body{
+  margin-right: auto;
+  margin-left: auto;
+}
 #hero {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-home.jpg") top right;
   background-size: cover;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 #logox{
   height: 10vh;
