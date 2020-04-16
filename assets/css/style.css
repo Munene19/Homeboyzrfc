@@ -302,8 +302,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-home.jpg") top right;
+  background: url("../img/hero-home.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -407,6 +410,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topstoryimg{
   width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 section {
   padding: 60px 0;
